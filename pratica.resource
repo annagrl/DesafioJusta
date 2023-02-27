@@ -56,6 +56,7 @@ E adiciono os dados para checkout
 Então finalizo a compra
     Wait and Click                        ${BUTTON_FINISH}
     Element Should Contain                ${VALIDATION}      ${MESSAGE}  
+    Close Browser
 
 E seleciono a bolsa e coloco no carrinho
     Wait and Click   ${BACKPACK}
